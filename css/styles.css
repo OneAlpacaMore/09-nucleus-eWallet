@@ -323,6 +323,7 @@ img {
 /*Testimoniales*/
 .testimoniales {
     background-color: var(--primario);
+    padding-bottom: 5rem;
 }
 .testimoniales__heading {
     margin: 0;
@@ -374,3 +375,28 @@ img {
 
 /*Footer*/
 
+.footer {
+    background-color: #5A30A0;
+    padding: 3rem 0;
+}
+
+@media (min-width: 768px) { 
+    .footer__flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+}
+.footer__logo {
+    width: 20rem;
+    margin: 0 auto 4rem auto;
+}
+@media (min-width: 768px) { 
+    .footer__logo {
+        margin: 0;
+    }
+}
+
+.navegacion__link--blanco {
+    color: var(--blanco);
+}
